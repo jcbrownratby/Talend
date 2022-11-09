@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.indicators.columnset="http://dataquality.indicators.columnset" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010" xmi:id="_LOsa0F6qEe29KfHVYdWX9g" name="FormatRedundancy" creationDate="2022-11-07T15:40:50.940+0000" defaultContext="Default">
+  <clientDependency href="../../metadata/connections/Staging_0.1.item#_NVDAIF6mEe29KfHVYdWX9g"/>
+  <taggedValue xmi:id="_LOsa0V6qEe29KfHVYdWX9g" tag="Status" value="development"/>
+  <taggedValue xmi:id="_LOsa0l6qEe29KfHVYdWX9g" tag="Author" value="jcbrown@eval13398.talend.com"/>
+  <taggedValue xmi:id="_LOsa016qEe29KfHVYdWX9g" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_LOsa1F6qEe29KfHVYdWX9g" tag="Description" value=""/>
+  <taggedValue xmi:id="_LOsa1V6qEe29KfHVYdWX9g" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_Z_JXYV6qEe29KfHVYdWX9g" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+  <taggedValue xmi:id="_Z_J-cl6qEe29KfHVYdWX9g" tag="Ignore Null" value="true"/>
+  <taggedValue xmi:id="_Z_J-c16qEe29KfHVYdWX9g" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
+  <context xmi:id="_LOsa1l6qEe29KfHVYdWX9g">
+    <connection href="../../metadata/connections/Staging_0.1.item#_37UbwF6gEe29KfHVYdWX9g"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Staging_0.1.item#_qaMm116lEe29KfHVYdWX9g"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Staging_0.1.item#_3fdFg16oEe29KfHVYdWX9g"/>
+  </context>
+  <results xmi:id="_LOsa116qEe29KfHVYdWX9g">
+    <resultMetadata xmi:id="_LOsa2F6qEe29KfHVYdWX9g" executionDate="2022-11-07T16:11:09.053+0000" executionDuration="47" message="" executionNumber="3" lastRunOk="true" lastExecutionNumberOk="3"/>
+    <indicators xsi:type="dataquality.indicators.columnset:RowMatchingIndicator" xmi:id="_Z_J-cF6qEe29KfHVYdWX9g" count="224" computed="true" matchingValueCount="16" notMatchingValueCount="208">
+      <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/Staging_0.1.item#_qaMm0V6lEe29KfHVYdWX9g"/>
+      <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Row Comparison/Row_Comparison_0.1.definition#_jMh4gJE3Ed2HGNmGoaS-_w"/>
+      <instantiatedExpressions xmi:id="_arC0EF6qEe29KfHVYdWX9g" body="SELECT COUNT(*) FROM `Staging`.`format` A LEFT JOIN `Staging`.`valid_formats` B ON ( (A.`format` = B.`format` OR  (A.`format` IS NULL  AND B.`format` IS NULL ) ) ) WHERE (B.`format` IS NULL  AND (A.`format` IS NOT NULL ))" language="SQL"/>
+      <builtInIndicatorDefinition xmi:id="_aq7fUF6qEe29KfHVYdWX9g" name="Row Comparison" label="Row Comparison">
+        <taggedValue xmi:id="_aq7fUV6qEe29KfHVYdWX9g" tag="Purpose" value="Compare content of two column sets"/>
+        <taggedValue xmi:id="_aq7fUl6qEe29KfHVYdWX9g" tag="Description" value="Counts the number of data from a column set A that match data of a column set B"/>
+        <sqlGenericExpression xmi:id="_aq7fU16qEe29KfHVYdWX9g" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> LEFT JOIN &lt;%=__TABLE_NAME_2__%> ON (&lt;%=__JOIN_CLAUSE__%>) WHERE (&lt;%=__WHERE_CLAUSE__%>)" language="SQL"/>
+        <sqlGenericExpression xmi:id="_aq7fVF6qEe29KfHVYdWX9g" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> LEFT OUTER JOIN &lt;%=__TABLE_NAME_2__%> ON (&lt;%=__JOIN_CLAUSE__%>) WHERE (&lt;%=__WHERE_CLAUSE__%>)" language="Hive"/>
+      </builtInIndicatorDefinition>
+      <columnSetA href="../../metadata/connections/Staging_0.1.item#_qaMm116lEe29KfHVYdWX9g"/>
+      <columnSetB href="../../metadata/connections/Staging_0.1.item#_3fdFg16oEe29KfHVYdWX9g"/>
+    </indicators>
+    <indicators xsi:type="dataquality.indicators.columnset:RowMatchingIndicator" xmi:id="_Z_J-cV6qEe29KfHVYdWX9g" count="16" computed="true" notMatchingValueCount="16">
+      <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/Staging_0.1.item#_3fdFgV6oEe29KfHVYdWX9g"/>
+      <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Row Comparison/Row_Comparison_0.1.definition#_jMh4gJE3Ed2HGNmGoaS-_w"/>
+      <instantiatedExpressions xmi:id="_arC0EV6qEe29KfHVYdWX9g" body="SELECT COUNT(*) FROM `Staging`.`valid_formats` A LEFT JOIN `Staging`.`format` B ON ( (A.`format` = B.`format` OR  (A.`format` IS NULL  AND B.`format` IS NULL ) ) ) WHERE (B.`format` IS NULL  AND (A.`format` IS NOT NULL ))" language="SQL"/>
+      <builtInIndicatorDefinition xmi:id="_aq_JsF6qEe29KfHVYdWX9g" name="Row Comparison" label="Row Comparison">
+        <taggedValue xmi:id="_aq_JsV6qEe29KfHVYdWX9g" tag="Purpose" value="Compare content of two column sets"/>
+        <taggedValue xmi:id="_aq_Jsl6qEe29KfHVYdWX9g" tag="Description" value="Counts the number of data from a column set A that match data of a column set B"/>
+        <sqlGenericExpression xmi:id="_aq_Js16qEe29KfHVYdWX9g" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> LEFT JOIN &lt;%=__TABLE_NAME_2__%> ON (&lt;%=__JOIN_CLAUSE__%>) WHERE (&lt;%=__WHERE_CLAUSE__%>)" language="SQL"/>
+        <sqlGenericExpression xmi:id="_aq_JtF6qEe29KfHVYdWX9g" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> LEFT OUTER JOIN &lt;%=__TABLE_NAME_2__%> ON (&lt;%=__JOIN_CLAUSE__%>) WHERE (&lt;%=__WHERE_CLAUSE__%>)" language="Hive"/>
+      </builtInIndicatorDefinition>
+      <columnSetA href="../../metadata/connections/Staging_0.1.item#_3fdFg16oEe29KfHVYdWX9g"/>
+      <columnSetB href="../../metadata/connections/Staging_0.1.item#_qaMm116lEe29KfHVYdWX9g"/>
+    </indicators>
+  </results>
+  <parameters xmi:id="_LOsa2V6qEe29KfHVYdWX9g" analysisType="Columns Comparison Analysis" deactivatedIndicators="_Z_J-cV6qEe29KfHVYdWX9g"/>
+  <contextType xmi:id="_Z_JXYF6qEe29KfHVYdWX9g" confirmationNeeded="false" name="Default"/>
+</dataquality.analysis:Analysis>

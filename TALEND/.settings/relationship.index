@@ -1,0 +1,206 @@
+[ {
+  "baseItem" : {
+    "id" : "_5Rbh8FqhEe2wbd1qXDFRyg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_GDGl4FwcEe2rda-BQnRxdA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_GDGl4FwcEe2rda-BQnRxdA - authors",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_GDGl4FwcEe2rda-BQnRxdA - book_authors",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_GDGl4FwcEe2rda-BQnRxdA - books",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_GDGl4FwcEe2rda-BQnRxdA - format",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_GDGl4FwcEe2rda-BQnRxdA - language_code",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_GDGl4FwcEe2rda-BQnRxdA - popular_shelves",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_GDGl4FwcEe2rda-BQnRxdA - publisher",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_GDGl4FwcEe2rda-BQnRxdA - similar_books",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_HSH8gF83Ee29KfHVYdWX9g",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_GDGl4FwcEe2rda-BQnRxdA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_GDGl4FwcEe2rda-BQnRxdA - books",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_WrZqgF6xEe29KfHVYdWX9g",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_36QEwF6gEe29KfHVYdWX9g",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_GDGl4FwcEe2rda-BQnRxdA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_36QEwF6gEe29KfHVYdWX9g - authors",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_36QEwF6gEe29KfHVYdWX9g - book_authors",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_36QEwF6gEe29KfHVYdWX9g - books",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_36QEwF6gEe29KfHVYdWX9g - format",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_36QEwF6gEe29KfHVYdWX9g - language_code",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_36QEwF6gEe29KfHVYdWX9g - popular_shelves",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_36QEwF6gEe29KfHVYdWX9g - publisher",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_36QEwF6gEe29KfHVYdWX9g - similar_books",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_GDGl4FwcEe2rda-BQnRxdA - books",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_jhIU0F93Ee2OSauc57GQ_Q",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_36QEwF6gEe29KfHVYdWX9g",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_GDGl4FwcEe2rda-BQnRxdA",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_lZP54F3_Ee2TKISjR0JtxQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_GDGl4FwcEe2rda-BQnRxdA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_GDGl4FwcEe2rda-BQnRxdA - format",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_GDGl4FwcEe2rda-BQnRxdA - language_code",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_GDGl4FwcEe2rda-BQnRxdA - publisher",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_m5w_QF6gEe29KfHVYdWX9g",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_36QEwF6gEe29KfHVYdWX9g",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_GDGl4FwcEe2rda-BQnRxdA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_36QEwF6gEe29KfHVYdWX9g - books",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_zVf2cF68Ee29KfHVYdWX9g",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_36QEwF6gEe29KfHVYdWX9g",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_GDGl4FwcEe2rda-BQnRxdA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_GDGl4FwcEe2rda-BQnRxdA - books",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_wEAQgF68Ee29KfHVYdWX9g - NewBooks",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+} ]
