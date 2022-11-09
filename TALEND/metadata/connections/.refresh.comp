@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_6Wds8GBrEe2jPckhkOjMkw" name="staging" supplierDependency="_6Wds_mBrEe2jPckhkOjMkw" id="_36QEwF6gEe29KfHVYdWX9g" label="staging" dataPackage="_6Wds_2BrEe2jPckhkOjMkw" DatabaseType="MySQL" DriverClass="com.mysql.cj.jdbc.Driver" URL="jdbc:mysql://localhost:3306/staging?noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" dbVersionString="MYSQL_8" Port="3306" Username="jonb" Password="enc:system.encryption.key.v2:sW3HG3QAcAmIIX8kJB1rftE3pOshW2R7xfw6hkqhLwHMMxoK" ServerName="localhost" DatasourceName="" FileFieldName="" SID="staging" SqlSynthax="" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" StandardSQL="true" SQLMode="false" UiSchema="" supportNLS="false">
+    <taggedValue xmi:id="_6Wds8WBrEe2jPckhkOjMkw" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_6Wds8mBrEe2jPckhkOjMkw" tag="package filter" value=""/>
+    <taggedValue xmi:id="_6Wds82BrEe2jPckhkOjMkw" tag="Status" value=""/>
+    <taggedValue xmi:id="_6Wds9GBrEe2jPckhkOjMkw" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_6Wds9WBrEe2jPckhkOjMkw" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_6Wds9mBrEe2jPckhkOjMkw" tag="Description" value=""/>
+    <taggedValue xmi:id="_6Wds92BrEe2jPckhkOjMkw" tag="Author" value=""/>
+    <taggedValue xmi:id="_6Wds-GBrEe2jPckhkOjMkw" tag="otherParameter"/>
+    <taggedValue xmi:id="_6Wds-WBrEe2jPckhkOjMkw" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_6Wds-mBrEe2jPckhkOjMkw" tag="DB ProductVersion" value="8.0.31"/>
+    <taggedValue xmi:id="_6Wds-2BrEe2jPckhkOjMkw" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_6Wds_GBrEe2jPckhkOjMkw" key="CONN_PARA_KEY_USERNAME" value="jonb"/>
+    <parameters xmi:id="_6Wds_WBrEe2jPckhkOjMkw" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_6Wds_mBrEe2jPckhkOjMkw" kind="Usage" supplier="_6Wds8GBrEe2jPckhkOjMkw"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_6Wds_2BrEe2jPckhkOjMkw" name="staging" dataManager="_6Wds8GBrEe2jPckhkOjMkw"/>
+</xmi:XMI>

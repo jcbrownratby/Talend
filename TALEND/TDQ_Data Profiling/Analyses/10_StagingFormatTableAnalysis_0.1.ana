@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators.columnset="http://dataquality.indicators.columnset" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
   <dataquality.analysis:Analysis xmi:id="_J6rCYF9TEe2OSauc57GQ_Q" name="10_StagingFormatTableAnalysis" creationDate="2022-11-07T15:34:54.108+0000" defaultContext="Default">
-    <clientDependency href="../../metadata/connections/Staging_0.1.item#_NVDAIF6mEe29KfHVYdWX9g"/>
     <taggedValue xmi:id="_J6rCYV9TEe2OSauc57GQ_Q" tag="Status" value="development"/>
     <taggedValue xmi:id="_J6rCYl9TEe2OSauc57GQ_Q" tag="Author" value="jcbrown@eval13398.talend.com"/>
     <taggedValue xmi:id="_J6rCY19TEe2OSauc57GQ_Q" tag="Purpose" value=""/>
@@ -11,18 +10,12 @@
     <taggedValue xmi:id="_J6rCZ19TEe2OSauc57GQ_Q" tag="PREVIEW_ROW_NUMBER" value="50"/>
     <taggedValue xmi:id="_J6rCaF9TEe2OSauc57GQ_Q" tag="Is Use Sample Data" value="false"/>
     <taggedValue xmi:id="_J6rCaV9TEe2OSauc57GQ_Q" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
-    <context xmi:id="_J6rCal9TEe2OSauc57GQ_Q">
-      <connection href="../../metadata/connections/Staging_0.1.item#_37UbwF6gEe29KfHVYdWX9g"/>
-      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Staging_0.1.item#_qaMm016lEe29KfHVYdWX9g"/>
-      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Staging_0.1.item#_qaMm116lEe29KfHVYdWX9g"/>
-    </context>
+    <context xmi:id="_J6rCal9TEe2OSauc57GQ_Q"/>
     <results xmi:id="_J6rCa19TEe2OSauc57GQ_Q">
-      <resultMetadata xmi:id="_J6rCbF9TEe2OSauc57GQ_Q" executionDate="2022-11-08T18:41:07.791+0000" executionDuration="48" message="" executionNumber="3" lastRunOk="true" lastExecutionNumberOk="3"/>
+      <resultMetadata xmi:id="_J6rCbF9TEe2OSauc57GQ_Q" executionDate="2022-11-09T18:29:45.679+0000" executionDuration="128" message="" executionNumber="4" lastRunOk="true" lastExecutionNumberOk="4"/>
       <indicators xsi:type="dataquality.indicators.columnset:SimpleStatIndicator" xmi:id="_J6rCbV9TEe2OSauc57GQ_Q" count="224" computed="true" listRows="ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A6578700000000077040000000078" uniqueCount="224" distinctCount="224">
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Multiple_Column_Simple_Statistics_0.1.definition#_JoeMkM-jEd6qN5aKpPNGTg"/>
         <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_J6rCbl9TEe2OSauc57GQ_Q" body="SELECT `format_id`,`format`,COUNT(*) FROM `Staging`.`format`  GROUP BY `format_id`,`format`" language="SQL"/>
-        <analyzedColumns xsi:type="relational:TdColumn" href="../../metadata/connections/Staging_0.1.item#_qaMm016lEe29KfHVYdWX9g"/>
-        <analyzedColumns xsi:type="relational:TdColumn" href="../../metadata/connections/Staging_0.1.item#_qaMm116lEe29KfHVYdWX9g"/>
         <rowCountIndicator xmi:id="_J6rCb19TEe2OSauc57GQ_Q" count="224" computed="true">
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
           <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_J6rCcF9TEe2OSauc57GQ_Q" body="SELECT COUNT(*) FROM `Staging`.`format` " language="SQL"/>
