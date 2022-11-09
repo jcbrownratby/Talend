@@ -43,7 +43,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v2:7gCKNSVYTdHkeaMRutq0e6Gl+Oel00rgGMQCK4PD"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v2:YvZNZQbw8W8xkTf3KLvzikRnGk7COCOoZvSjBzvt"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -78,7 +78,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:xoWu83AuR4x/A/JetrYq2cniV/wy1vhtVis2aO1c"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:cNjzdSQaDCUUT15IPULVJZ18QaOmKtj9/r6w1qxn"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -125,7 +125,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;Staging&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MYSQL"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;root&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:sLlQhWuf4m4jz5CrkuVpPkxoJA6y0eSqJ7dOUlyamL0FN7Kmx6mSjztMSphgIFl5h+0="/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:Bm62EvbBpXBu6aaBQxSLI5C3hwsaQCfksUFmh8diyZO4nc3taKNQvYN+6ds6T/b0icA="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_36QEwF6gEe29KfHVYdWX9g - authors"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;authors&quot;"/>
@@ -173,7 +173,7 @@
     <elementParameter field="TEXT" name="PORT" show="false" value="&quot;3306&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;Staging&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;root&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:huLMcaBmLcba5gi5p5mpUV/VS59NT/Oi+vghbbuSzTREtSjpGRNSFrJ0Bhni4A+uNpM="/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:O6lVu1/s2heOpEwlzPt4JS/f2gHGt7D1g4A8vst+Wl3pS+C1soa1Yx1BMKoFegYPKlo="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;authors&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="CLEAR"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -248,7 +248,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;Staging&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MYSQL"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;root&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:pIKypZuZvyWqB/XRfw0+NFgU+ly59ISS7Y77yJjphtxPE0SWayakYmxREVKATB3J4G4="/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:ukF9yIkwd3BiHamJT4ZrGnNpm/qLzCePxx6BoHnqlJ1/4almuCI8fTeTBRBrIVjzOvM="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_36QEwF6gEe29KfHVYdWX9g - book_authors"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;book_authors&quot;"/>
@@ -301,7 +301,7 @@
     <elementParameter field="TEXT" name="PORT" show="false" value="&quot;3306&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;Staging&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;root&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:TlrxYzExGRT5rKZyp9KrTXS7Prx9BxfaHYz5cszC4C5uF/Sc3U7I1z4bBNyD1t9M5Tw="/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:24t8RWJSyDh+aFcsKxH/3YOwe+N8nMVQCRRnue0ZEPLQ0+zlgcnV1BXp4UwNxKed+84="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;book_authors&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="CLEAR"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -387,7 +387,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;Staging&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MYSQL"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;root&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:GUVxVf6TfUiMHvTwD741mIuDUVzy2vkQxMbegKEb/oopdXrNXBCpCzYGOdUiS6lbnIc="/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:zVYbkTxBEm40yOBzzk29IQprN6tvev/reC/Z4pik5ihaMe44L4bj7g7LqB8zsbrfmbw="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_36QEwF6gEe29KfHVYdWX9g - books"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;books&quot;"/>
@@ -751,7 +751,7 @@
     <elementParameter field="TEXT" name="PORT" show="false" value="&quot;3306&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;Staging&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;root&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:ePgfo4LFi3w/WdgVrdCt2T+oK+/ixPlOP3cNOALfnz5bduvpuW2fZoj7bpn8YvnIplI="/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:2AMLEq7AvxUa4AZ/tPWiGKAd/OSIscn53RGIW+IOOybwjQ+Es17w3RTWss4UkQhowYs="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;books&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="CLEAR"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -1086,7 +1086,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;Staging&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MYSQL"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;root&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:yZds+Jyogbyd9GZa3R/xmNiWMFhfPryQeN7lecPpTqOd4ZFS96gEVIwj0J2PG4cckbU="/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:qJPxTlSKbr64BbGkzv9cBqVgCboSVBhhQXJVTt9h4lZ5qxo792bRWbfklcSSAjzgLuo="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_36QEwF6gEe29KfHVYdWX9g - format"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;format&quot;"/>
@@ -1136,7 +1136,7 @@
     <elementParameter field="TEXT" name="PORT" show="false" value="&quot;3306&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;Staging&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;root&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:GXGP47GCSag+Hx3KQovdJIpiNmt4ppypiDakV6jABF/3PRobq992bqOMj+mXl/UzLhY="/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:Y+0lr0uZeJnIOZLEY75Lf28Sh2QClE44xmNJ96n4/vIxKcPK6peQbx/E7k3H6mTY5Wk="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;format&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="CLEAR"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -1215,7 +1215,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;Staging&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MYSQL"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;root&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:fKgUd7jmyzCX9zreEy/jKD2MalZj+m61pAbL0LnDeBUudLi51pd3kFEH4XUb2xbDbqg="/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:XWfrb3+9nUwHOtRB5gso2jxcLh0xuk5eiIQ+rrYK/+zXxjOwcXXSy0ZZpqUQg6thMz0="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_36QEwF6gEe29KfHVYdWX9g - language_code"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;language_code&quot;"/>
@@ -1263,7 +1263,7 @@
     <elementParameter field="TEXT" name="PORT" show="false" value="&quot;3306&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;Staging&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;root&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:Y6/z5uLBKMGfZcsmwGCFEm5fDxMQW4jzoC2igTibmpPL4fASL9ElOnpq2qkqIolhsj8="/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:LVflUI2wfeyOK1FrxJuWlqbGw0IH1vKLoR129Igroh9YJ39R3e1j4I8dte6d9Ni2EdU="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;language_code&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="CLEAR"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -1338,7 +1338,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;Staging&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MYSQL"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;root&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:Np0IwIA4B1POq2uNaIh7oBz4vWGkXeIlRpXzUNv/oKRe0yM/T113k6TaBW+26McB1Kw="/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:vKmulhbP9Avfer16xM+gPmvBtSafIg787eCiE1bdXuHCSjs7RiMQvQ18a2YN7Je03Ao="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_36QEwF6gEe29KfHVYdWX9g - popular_shelves"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;popular_shelves&quot;"/>
@@ -1386,7 +1386,7 @@
     <elementParameter field="TEXT" name="PORT" show="false" value="&quot;3306&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;Staging&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;root&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:x7GE0NhTt9dH50EFl1RWadFf/OI8Eg9W2Wg4wiD7QoYFX37lY3S+1++p26mcViNnuYo="/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:ftMxf+gvIXXhz5Qm2gGl/atSUN+Vc327hsmH28lIqGaTw/wXDAtvwICWMh+FkWNkSQY="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;popular_shelves&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="CLEAR"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -1461,7 +1461,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;Staging&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MYSQL"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;root&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:IE7Mi5WIrJtkUKHHdP04Mm7l7svYDf951FdFy1FTX0ewWWXqx7O/3QfNhTBF+l5S51M="/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:dkV9zO7F/UReGCyQXWpwB6LeeTiYro+wuwB25REDek24m/kGIPRKbTF/80ipz94gde0="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_36QEwF6gEe29KfHVYdWX9g - publisher"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;publisher&quot;"/>
@@ -1509,7 +1509,7 @@
     <elementParameter field="TEXT" name="PORT" show="false" value="&quot;3306&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;Staging&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;root&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:8hEDc+tdRdrz442heOgM/IAU1TwI3NEEZ61K7YnlThd6x/XFzG0S+CA6QGmxzVkJ0ig="/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:3SWHatbvYcqD8JlfX3ALTMKZQxydubhWpt1AvUPYA/4dx8tn1ZbHsH7KzLfjiMI+WHQ="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;publisher&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="CLEAR"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -1584,7 +1584,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;Staging&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MYSQL"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;root&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:kDOeRsDe+ezDWIw31g2lmK8ozbk1zVaqFKYqG9i8DdtjleVb7ZdAIFy6JDG4DvBBedY="/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:/fKFiMtTp3ubFSm3wH5+hKH7mMQwaSFVAQEbVYqfBkfQdUeUPym8vkoNm1bxGVl24bg="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_36QEwF6gEe29KfHVYdWX9g - similar_books"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;similar_books&quot;"/>
@@ -1632,7 +1632,7 @@
     <elementParameter field="TEXT" name="PORT" show="false" value="&quot;3306&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;Staging&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;root&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:BCkcqkP9TtB6huHJlZu03fGnnQZxN03uK2MPKSYG6fwnCjoQIrJExAkkYn4/e1X+JY4="/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:i8nYs0D8LoADWipTjg7a9AAvWd4HWk0iaJ9rSwp1gioXQkNhOSCF1mNrg7dxExQFbjk="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;similar_books&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="CLEAR"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -1700,13 +1700,13 @@
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_36QEwF6gEe29KfHVYdWX9g"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_8"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;83.100.244.77&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MYSQL"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;Staging&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;staging&quot;"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1&quot;"/>
-    <elementParameter field="TEXT" name="USER" value="&quot;root&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v2:5TnU6vdjXszW8LGDbqXUZOemnMchS35waU0eFSvS2U3v7Ldv9fcgmZNyHczKsIHLT20="/>
+    <elementParameter field="TEXT" name="USER" value="&quot;jonb&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v2:yL+9GFbSeVMvVZIY7FU+UGhd8fQE/Ol9+LLg4fJg/OO4otBDqpOKhURXD7Tnp99PnYc="/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
@@ -1723,13 +1723,13 @@
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_GDGl4FwcEe2rda-BQnRxdA"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_8"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;83.100.244.77&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MYSQL"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;DWH&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;dwh&quot;"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1&quot;"/>
-    <elementParameter field="TEXT" name="USER" value="&quot;root&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v2:JvUkPDX4Km3kPmifgNhUDWPXrDokkT1o6nlUGWr8EZ4NJewg4Z4Riq6CCKACTUodomA="/>
+    <elementParameter field="TEXT" name="USER" value="&quot;jonb&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v2:nZIwQD29XbUfSg2KL6+Qlx/833vs5hFp9t5xdX/ViQgCBOyqmtbtWjVjr0LXq7cvK5o="/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
@@ -1909,13 +1909,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_0c14b71d-7c17-4784-b411-d00480460c51"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>uXeJu6bPDKl9modrZI9ED80I/eQCHiN/53L12gA08mBR7sky2qTshh+OYVNNwXc/dVgrOM+e3wxq&#13;
-6Dmxb8J8Bw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_2c4901b6-9434-4adf-9128-aa7087e691ac"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>OmQNHyJIaEoY4YSQHz2+2v3J4E/TZpy4mIKFlSN+2trNk0OAZTHs7Te6YqbclJ60EjjssafOi+j9&#13;
-GAWtN33uJw==</DigestValue></Reference></SignedInfo><SignatureValue>YwagDPGN8GDqXN1JZ30YoXxFOSDj0HJqDoHbZqNF5tbsjNp4HZrSBfulxGkgpnABlicVI+URlXxf&#13;
-FjZge87vQ6ZEEiNZ8D004fSYQxHcud/FBv1idQEzgs0mej4FOKVC7iWYCqpUc4mUH05BuHsseymN&#13;
-eYm9ovLT91sEmqSpYCa+d6GJDGQji18khTKSgpDAKBu7ZcRm9NihnuZpWI1L2+xycqc2Keo1m+tD&#13;
-jQPtPTI7geUUoAVU9sE/ggR1qblNDtYE6m3mb6MDwEMB+F9OCoo0KcKMPlOjiYVr80761m2Gx6f8&#13;
-ktwOPyvDUo4iyUXjHS2NbsE/BK8UF5xISFt4ag==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_ffd63075-6214-41e8-892c-ec4897db7921"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>RjKWS07Vxt/+2aZGYysebv+WOYtd3537Md30nspp6mgfP50uHvQqy+apLOqDGElgdtCXh467emwN&#13;
+d7agNt7H4A==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_88fdaa63-1397-4bd7-a1df-ee41e858a26a"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>b3CAVyT3RTOfp8uOTtVNChXQns9WrSiUWKyO9AGYqm4USaZx6tmYGruSD4NQar0nxfasMW/cx2hD&#13;
+HRNOrTcm3g==</DigestValue></Reference></SignedInfo><SignatureValue>QS8OYwOmO38Xh3jj89W6wWCPvHioTeKFdsef7rlQaM4SBa3nRsrvqbhcHh/BAtSDiKkGb5Xrb4NN&#13;
+E5neBI2j1w9MiuIjbFbk7RARo97FpHeZvupts+OTqeHuoWy6mySBBm8MRCWc6a5n86+rvgME9nO4&#13;
+KUpro05lBxvWYWa89yFMSEW8ix4rbOKrGqBQy3mHskl72ZDHv7JF04+COVEfYtJ5tNwGJI13BUD3&#13;
+fvZ9Mq4mLyckRcKCFbCovFotHMB3eIvd+0OIuq86Qn0hEI3bpzliTL4TUPfR0yKwVZQMoX0pYBNJ&#13;
+4qYfKqzKUfst7i+jWWxm5HZGcvhnczWOGlTcJw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -1937,4 +1937,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_2c4901b6-9434-4adf-9128-aa7087e691ac" Target="#_0c14b71d-7c17-4784-b411-d00480460c51"><Timestamp>2022-11-09 07:33:28</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_88fdaa63-1397-4bd7-a1df-ee41e858a26a" Target="#_ffd63075-6214-41e8-892c-ec4897db7921"><Timestamp>2022-11-09 15:03:13</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
