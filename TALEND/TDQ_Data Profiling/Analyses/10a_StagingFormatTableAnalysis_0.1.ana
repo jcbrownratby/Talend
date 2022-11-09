@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <dataquality.analysis:Analysis xmi:id="_Oi27gWBxEe2jPckhkOjMkw" name="10a_StagingFormatTableAnalysis" creationDate="2022-11-09T21:58:14.199+0000" defaultContext="Default">
+    <clientDependency href="../../metadata/connections/staging_0.1.item#_NVDAIF6mEe29KfHVYdWX9g"/>
+    <taggedValue xmi:id="_Oi27gmBxEe2jPckhkOjMkw" tag="Status" value="development"/>
+    <taggedValue xmi:id="_Oi27g2BxEe2jPckhkOjMkw" tag="Author" value="jcbrown@eval13398.talend.com"/>
+    <taggedValue xmi:id="_Oi27hGBxEe2jPckhkOjMkw" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_Oi27hWBxEe2jPckhkOjMkw" tag="Description" value=""/>
+    <taggedValue xmi:id="_Oi27hmBxEe2jPckhkOjMkw" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_ReEIYWBxEe2jPckhkOjMkw" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+    <taggedValue xmi:id="_ReEvcGBxEe2jPckhkOjMkw" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
+    <context xmi:id="_Oi27h2BxEe2jPckhkOjMkw">
+      <connection href="../../metadata/connections/staging_0.1.item#_37UbwF6gEe29KfHVYdWX9g"/>
+      <analysedElements xsi:type="relational:TdTable" href="../../metadata/connections/staging_0.1.item#_VoTGcWBsEe2jPckhkOjMkw"/>
+    </context>
+    <results xmi:id="_Oi27iGBxEe2jPckhkOjMkw">
+      <resultMetadata xmi:id="_Oi27iWBxEe2jPckhkOjMkw" executionDate="2022-11-09T21:58:34.958+0000" executionDuration="64" message="" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_Oi27imBxEe2jPckhkOjMkw" count="224" computed="true">
+        <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/staging_0.1.item#_VoTGcWBsEe2jPckhkOjMkw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_Ro11AGBxEe2jPckhkOjMkw" body="SELECT COUNT(*) FROM `staging`.`format` " language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_Rot5MGBxEe2jPckhkOjMkw" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_Rot5MWBxEe2jPckhkOjMkw" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_Rot5MmBxEe2jPckhkOjMkw" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_Rot5M2BxEe2jPckhkOjMkw" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+    </results>
+    <parameters xmi:id="_Oi27i2BxEe2jPckhkOjMkw" dataFilter="_ReF9kGBxEe2jPckhkOjMkw" analysisType="Table Analysis"/>
+    <contextType xmi:id="_ReEIYGBxEe2jPckhkOjMkw" confirmationNeeded="false" name="Default"/>
+  </dataquality.analysis:Analysis>
+  <dataquality.domain:Domain xmi:id="_ReF9kGBxEe2jPckhkOjMkw" name="10a_StagingFormatTableAnalysis">
+    <ranges xmi:id="_ReF9kWBxEe2jPckhkOjMkw">
+      <expressions xmi:id="_ReF9kmBxEe2jPckhkOjMkw">
+        <expression xsi:type="relational:TdExpression" xmi:id="_ReF9k2BxEe2jPckhkOjMkw" body="" language="SQL"/>
+      </expressions>
+    </ranges>
+  </dataquality.domain:Domain>
+</xmi:XMI>

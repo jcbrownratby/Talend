@@ -14,35 +14,35 @@
       <analysedElements xsi:type="orgomg.cwm.resource.relational:Catalog" href="../../metadata/connections/staging_0.1.item#_7g7Qjl6gEe29KfHVYdWX9g"/>
     </context>
     <results xmi:id="_59LD519SEe2OSauc57GQ_Q">
-      <resultMetadata xmi:id="_59LD6F9SEe2OSauc57GQ_Q" executionDate="2022-11-09T21:11:27.547+0000" executionDuration="730" message="" executionNumber="7" lastRunOk="true" lastExecutionNumberOk="7"/>
+      <resultMetadata xmi:id="_59LD6F9SEe2OSauc57GQ_Q" executionDate="2022-11-09T21:53:49.530+0000" executionDuration="687" message="" executionNumber="8" lastRunOk="true" lastExecutionNumberOk="8"/>
       <indicators xsi:type="dataquality.indicators.schema:CatalogIndicator" xmi:id="_59LD6V9SEe2OSauc57GQ_Q" computed="true" tableCount="9" keyCount="6" indexCount="6" tableRowCount="1564057">
         <analyzedElement xsi:type="orgomg.cwm.resource.relational:Catalog" href="../../metadata/connections/staging_0.1.item#_7g7Qjl6gEe29KfHVYdWX9g"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Catalog_Overview_0.1.definition#_QwDiwMYUEd27NP4lvE0A4w"/>
-        <tableIndicators xmi:id="_sW9hoGBqEe2jPckhkOjMkw" rowCount="90005" tableName="authors" keyCount="1" indexCount="1">
+        <tableIndicators xmi:id="_nHYPoGBwEe2jPckhkOjMkw" rowCount="90005" tableName="authors" keyCount="1" indexCount="1">
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
         </tableIndicators>
-        <tableIndicators xmi:id="_sXJH0GBqEe2jPckhkOjMkw" rowCount="140397" tableName="book_authors">
+        <tableIndicators xmi:id="_nHwqIGBwEe2jPckhkOjMkw" rowCount="140397" tableName="book_authors">
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
         </tableIndicators>
-        <tableIndicators xmi:id="_sZsskGBqEe2jPckhkOjMkw" rowCount="100000" tableName="books" keyCount="1" indexCount="1">
+        <tableIndicators xmi:id="_nK1MQGBwEe2jPckhkOjMkw" rowCount="100000" tableName="books" keyCount="1" indexCount="1">
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
         </tableIndicators>
-        <tableIndicators xmi:id="_sZwW8GBqEe2jPckhkOjMkw" rowCount="224" tableName="format" keyCount="1" indexCount="1">
+        <tableIndicators xmi:id="_nK5dsGBwEe2jPckhkOjMkw" rowCount="224" tableName="format" keyCount="1" indexCount="1">
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
         </tableIndicators>
-        <tableIndicators xmi:id="_sZ0oYGBqEe2jPckhkOjMkw" rowCount="95" tableName="language_code" keyCount="1" indexCount="1">
+        <tableIndicators xmi:id="_nK-WMGBwEe2jPckhkOjMkw" rowCount="95" tableName="language_code" keyCount="1" indexCount="1">
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
         </tableIndicators>
-        <tableIndicators xmi:id="_sa0t8GBqEe2jPckhkOjMkw" rowCount="492321" tableName="popular_shelves" keyCount="1" indexCount="1">
+        <tableIndicators xmi:id="_nL3uEGBwEe2jPckhkOjMkw" rowCount="492321" tableName="popular_shelves" keyCount="1" indexCount="1">
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
         </tableIndicators>
-        <tableIndicators xmi:id="_sa9Q0GBqEe2jPckhkOjMkw" rowCount="21929" tableName="publisher" keyCount="1" indexCount="1">
+        <tableIndicators xmi:id="_nMAQ8GBwEe2jPckhkOjMkw" rowCount="21929" tableName="publisher" keyCount="1" indexCount="1">
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
         </tableIndicators>
-        <tableIndicators xmi:id="_sbXggGBqEe2jPckhkOjMkw" rowCount="719070" tableName="similar_books">
+        <tableIndicators xmi:id="_nNNK0GBwEe2jPckhkOjMkw" rowCount="719070" tableName="similar_books">
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
         </tableIndicators>
-        <tableIndicators xmi:id="_sbbK4GBqEe2jPckhkOjMkw" rowCount="16" tableName="valid_formats">
+        <tableIndicators xmi:id="_nNQ1MGBwEe2jPckhkOjMkw" rowCount="16" tableName="valid_formats">
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
         </tableIndicators>
       </indicators>

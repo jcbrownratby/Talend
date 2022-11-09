@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.analysis="http://dataquality.analysis" xmi:id="_tc_rYV9TEe2OSauc57GQ_Q" name="15_FormatRedundancy" creationDate="2022-11-07T15:40:50.940+0000" defaultContext="Default">
+<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.indicators.columnset="http://dataquality.indicators.columnset" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010" xmi:id="_tc_rYV9TEe2OSauc57GQ_Q" name="15_FormatRedundancy" creationDate="2022-11-07T15:40:50.940+0000" defaultContext="Default">
+  <clientDependency href="../../metadata/connections/staging_0.1.item#_NVDAIF6mEe29KfHVYdWX9g"/>
   <taggedValue xmi:id="_tc_rYl9TEe2OSauc57GQ_Q" tag="Status" value="development"/>
   <taggedValue xmi:id="_tc_rY19TEe2OSauc57GQ_Q" tag="Author" value="jcbrown@eval13398.talend.com"/>
   <taggedValue xmi:id="_tc_rZF9TEe2OSauc57GQ_Q" tag="Purpose" value=""/>
@@ -8,10 +9,40 @@
   <taggedValue xmi:id="_tc_rZ19TEe2OSauc57GQ_Q" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
   <taggedValue xmi:id="_tc_raF9TEe2OSauc57GQ_Q" tag="Ignore Null" value="true"/>
   <taggedValue xmi:id="_tc_raV9TEe2OSauc57GQ_Q" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
-  <context xmi:id="_tc_ral9TEe2OSauc57GQ_Q"/>
+  <context xmi:id="_tc_ral9TEe2OSauc57GQ_Q">
+    <connection href="../../metadata/connections/staging_0.1.item#_37UbwF6gEe29KfHVYdWX9g"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/staging_0.1.item#_VoTGd2BsEe2jPckhkOjMkw"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/staging_0.1.item#_V3vQo2BsEe2jPckhkOjMkw"/>
+  </context>
   <results xmi:id="_tc_ra19TEe2OSauc57GQ_Q">
-    <resultMetadata xmi:id="_tc_rbF9TEe2OSauc57GQ_Q" executionDate="2022-11-09T18:39:04.466+0000" executionDuration="111" message="" executionNumber="6" lastRunOk="true" lastExecutionNumberOk="6"/>
+    <resultMetadata xmi:id="_tc_rbF9TEe2OSauc57GQ_Q" executionDate="2022-11-09T22:01:57.855+0000" executionDuration="39" message="" executionNumber="9" lastRunOk="true" lastExecutionNumberOk="9"/>
+    <indicators xsi:type="dataquality.indicators.columnset:RowMatchingIndicator" xmi:id="_h0hZcGBxEe2jPckhkOjMkw" count="224" computed="true" matchingValueCount="16" notMatchingValueCount="208">
+      <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/staging_0.1.item#_VoTGcWBsEe2jPckhkOjMkw"/>
+      <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Row Comparison/Row_Comparison_0.1.definition#_jMh4gJE3Ed2HGNmGoaS-_w"/>
+      <instantiatedExpressions xmi:id="_iffpEGBxEe2jPckhkOjMkw" body="SELECT COUNT(*) FROM `staging`.`format` A LEFT JOIN `staging`.`valid_formats` B ON ( (A.`format` = B.`format` OR  (A.`format` IS NULL  AND B.`format` IS NULL ) ) ) WHERE (B.`format` IS NULL  AND (A.`format` IS NOT NULL ))" language="SQL"/>
+      <builtInIndicatorDefinition xmi:id="_ifVRAGBxEe2jPckhkOjMkw" name="Row Comparison" label="Row Comparison">
+        <taggedValue xmi:id="_ifVRAWBxEe2jPckhkOjMkw" tag="Purpose" value="Compare content of two column sets"/>
+        <taggedValue xmi:id="_ifVRAmBxEe2jPckhkOjMkw" tag="Description" value="Counts the number of data from a column set A that match data of a column set B"/>
+        <sqlGenericExpression xmi:id="_ifVRA2BxEe2jPckhkOjMkw" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> LEFT JOIN &lt;%=__TABLE_NAME_2__%> ON (&lt;%=__JOIN_CLAUSE__%>) WHERE (&lt;%=__WHERE_CLAUSE__%>)" language="SQL"/>
+        <sqlGenericExpression xmi:id="_ifVRBGBxEe2jPckhkOjMkw" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> LEFT OUTER JOIN &lt;%=__TABLE_NAME_2__%> ON (&lt;%=__JOIN_CLAUSE__%>) WHERE (&lt;%=__WHERE_CLAUSE__%>)" language="Hive"/>
+      </builtInIndicatorDefinition>
+      <columnSetA href="../../metadata/connections/staging_0.1.item#_VoTGd2BsEe2jPckhkOjMkw"/>
+      <columnSetB href="../../metadata/connections/staging_0.1.item#_V3vQo2BsEe2jPckhkOjMkw"/>
+    </indicators>
+    <indicators xsi:type="dataquality.indicators.columnset:RowMatchingIndicator" xmi:id="_h0hZcWBxEe2jPckhkOjMkw" count="16" computed="true" matchingValueCount="16">
+      <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/staging_0.1.item#_V3vQoWBsEe2jPckhkOjMkw"/>
+      <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Row Comparison/Row_Comparison_0.1.definition#_jMh4gJE3Ed2HGNmGoaS-_w"/>
+      <instantiatedExpressions xmi:id="_iffpEWBxEe2jPckhkOjMkw" body="SELECT COUNT(*) FROM `staging`.`valid_formats` A LEFT JOIN `staging`.`format` B ON ( (A.`format` = B.`format` OR  (A.`format` IS NULL  AND B.`format` IS NULL ) ) ) WHERE (B.`format` IS NULL  AND (A.`format` IS NOT NULL ))" language="SQL"/>
+      <builtInIndicatorDefinition xmi:id="_ifawkGBxEe2jPckhkOjMkw" name="Row Comparison" label="Row Comparison">
+        <taggedValue xmi:id="_ifawkWBxEe2jPckhkOjMkw" tag="Purpose" value="Compare content of two column sets"/>
+        <taggedValue xmi:id="_ifawkmBxEe2jPckhkOjMkw" tag="Description" value="Counts the number of data from a column set A that match data of a column set B"/>
+        <sqlGenericExpression xmi:id="_ifawk2BxEe2jPckhkOjMkw" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> LEFT JOIN &lt;%=__TABLE_NAME_2__%> ON (&lt;%=__JOIN_CLAUSE__%>) WHERE (&lt;%=__WHERE_CLAUSE__%>)" language="SQL"/>
+        <sqlGenericExpression xmi:id="_ifawlGBxEe2jPckhkOjMkw" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> LEFT OUTER JOIN &lt;%=__TABLE_NAME_2__%> ON (&lt;%=__JOIN_CLAUSE__%>) WHERE (&lt;%=__WHERE_CLAUSE__%>)" language="Hive"/>
+      </builtInIndicatorDefinition>
+      <columnSetA href="../../metadata/connections/staging_0.1.item#_V3vQo2BsEe2jPckhkOjMkw"/>
+      <columnSetB href="../../metadata/connections/staging_0.1.item#_VoTGd2BsEe2jPckhkOjMkw"/>
+    </indicators>
   </results>
-  <parameters xmi:id="_tc_re19TEe2OSauc57GQ_Q" analysisType="Columns Comparison Analysis"/>
+  <parameters xmi:id="_tc_re19TEe2OSauc57GQ_Q" analysisType="Columns Comparison Analysis" deactivatedIndicators="_h0hZcWBxEe2jPckhkOjMkw"/>
   <contextType xmi:id="_tc_rfF9TEe2OSauc57GQ_Q" confirmationNeeded="false" name="Default"/>
 </dataquality.analysis:Analysis>

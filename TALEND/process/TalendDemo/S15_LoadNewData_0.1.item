@@ -45,7 +45,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v2:aHNtZtDTU8tmfIo6y//KiHeTiLgpGISOWiDFDZV8"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v2:4qGvojhNEmaxfBQQMELBoofwpBRKI5l+Tu36C1A2"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -80,7 +80,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:E+isMy82w/PVg3s8VNNqkyEZGby94nydrUN/NBZ+"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:LMG2woAfuxElYaI7lZfqKoc8oHsHAmogkHmi7EEe"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -281,7 +281,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;Staging&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MYSQL"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;root&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:HSPBD+HpVEOJM63wDyrspoewCo9td+pzZUJdPbKLEL86/s4srPQeiUSGgMXu768WtuY="/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:TwrG1l/0t8hHz+e1Rzl2LFW4hFCEHDt3653jujM8D6srhqtbVr8mNIT9Vo9GdoKNXcI="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;books&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -392,7 +392,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;Staging&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MYSQL"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;root&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:dtF9BNsI6E3pFkalMP7DNYK2q8mCPC+Pnt4vmTsVxJS90I62keySg5hs8UhagwP9r50="/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:TyV83xtfz2hgwdIx0hGwSc5l6ZFnD31jtP4hx4QMaOOpRCsRh+RTDiGRdzoEtM6ObsM="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;books&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -685,7 +685,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;Staging&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MYSQL"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;root&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:HdLj2Lcj0nZoeAQ3PCRXY+pszFvsXIbCesdfeJeEsQZEuC5WToXD2ztuiQwbBxwu6aQ="/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:7T4b8qoDihdOTQ58YtkhDqlmT+dTWKPYp6G2MkbTQp5Gak3Ggt42lZRCUXXM3Jj2wvU="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;books&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -734,9 +734,9 @@
     <elementParameter field="TEXT" name="PORT" show="false" value="&quot;3306&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:rct7lgpygT/U/CHre4kvbt5oAuax3HZet00zKO0i"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:SHDIkPHbS8VASuF0hcag0lQ7mRoZmpJne0LpQ65y"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;DifferentISBNButGoodMatch&quot;"/>
-    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
@@ -844,9 +844,9 @@
     <elementParameter field="TEXT" name="PORT" show="false" value="&quot;3306&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:9RChZGMP4EMxqOsGMwDks0DVkaq28D2rPjDeC0um"/>
-    <elementParameter field="DBTABLE" name="TABLE" value="&quot;DifferentISBNButOKMatch&quot;"/>
-    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:1HJKJ4j4KSqD5vIvp31sEKv/AbSilWnWNSayA4RF"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;DifferentISBNButGoodMatch&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
@@ -956,7 +956,7 @@
     <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;dwh&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;jonb&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v2:L3F54ix1LdzxUrqhDefF35aRWqRwZEMjmronL2i8ST/gYeknLdg="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v2:e0vp5ZdEh48XZgSiGbN5t75rpU7qzWXgpdKVQBguQW1AhRpyM1k="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;books&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -1370,7 +1370,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;Staging&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MYSQL"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;root&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:Pe5XyTKGjeZiHIjYqO8ODyq2pliQL5dm+6zcZqzBkigk3PIb3CbNQv88ya51NfJsvjI="/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:MRl5OOJg7Djm63Q4Qbc3QxsUDtKJw3a6TN9HMU+9OWHNa3YZTgcukYgPwxkgdKmT8ow="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;books&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -1419,7 +1419,7 @@
     <elementParameter field="TEXT" name="PORT" show="false" value="&quot;3306&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:3sDt7L3AVFE74XxWljafkxo2u5Ol5nSYbzeVYODZ"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:3X7dlhlgVx147jr+KejHgOKa81GmJm+xLxIwP8ga"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;SameISBN&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -1551,7 +1551,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;dwh&quot;"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;jonb&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v2:EaML5If0oA9cx2Cx+bk9EST/z9Exottqu3MkMKMCVtrBFkybsFQ="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v2:uLogtdDeX85/Hzt3fHkZEU1zsPRt9ADnrVn2rYDkK5teC2jy0b8="/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
@@ -1612,7 +1612,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;dwh&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MYSQL"/>
     <elementParameter field="TEXT" name="USER" value="&quot;jonb&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v2:aIdIjdcSOb3OOB9FKKQ7Tqy+3ZbxOktyM0ZJQdi6YFc4jNj+QOE="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v2:4XkACsN3mY2sDfW28Y9/E+4i+2VI3ht/Kp4+7fNppAzcqxltgTw="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;books&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -1837,13 +1837,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_64aa34c7-d0c9-4254-9c4d-0db67b4b753c"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>kK2E/RHIaaC0ACCuVYx8mALYOrrgBdu82BJ7fu5k6ri6nPMlICkZDE1PJWCxYKxXXYWOU3jQ8j6h&#13;
-/ODNxRMxJg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_4a35bb7a-d5a6-4bf7-b35f-9885776fd78b"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>oLIGc6Xs00kCqOLWJJ0jd7c/NzMO/NCHdrjC1vDL93MzQdNsMqcd1Hcz/4n4YY22KFFYgVm1QVyw&#13;
-Fl31pU8aEg==</DigestValue></Reference></SignedInfo><SignatureValue>VZ0hnFo7szIENnm0DWYxgc31UzIMIuU4QY0my4VVwyScB8edLBgoNOI0D6fAbZkxuZCubYcQQRBr&#13;
-e8zlDXxX5M3mGetEQSQdfL6EY09xOTNIzcWUzydEL8+JocssJnpYXBeb1z4QDoMkR/SfreV4DP3e&#13;
-UW8Bq/QJTHJlgUVTZT5lXGdX/Dj4IUrfSIznUc3H+gXqJaSIyeE+EGohYZQv1bLJfbUZJs7oTuz4&#13;
-/QLNtoj3ya6i7jXS2oDf1OOclX2vK8UNPuPveKmac4w0ZroOoXsdNh9tdJp+cyLiW0EY/el3pWP9&#13;
-Ste+Xa3GbBgWALaDbsZLFCECMOEG+W1oAHlqOA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_2876cf39-f6dc-4569-a22a-3fea13137cdb"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>yxNWAvKrf/67sUwOVujuBYb7bUhM8UNb5iH+xV2TQFyEU/d1vndSSIPLISj+/KzM1aY+UAvH6ldW&#13;
+m159Et4ChA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_43444b86-ab6a-4fc3-9583-54df11a7cd31"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>w5NKVNfJthd8ysm1x7juEE7Op7DfN/bBp8Ag6k2qSS42dhhBmfIjJbOScdu2v60YT0JXHbw4aYSk&#13;
+okY3iIp27Q==</DigestValue></Reference></SignedInfo><SignatureValue>LRScqduywpakmdJXqaNPHMtib0WS39sLnkgWO5qxK9RwuSY5EV6ERbf5F8wrSAfDhAKhLyaNdgHq&#13;
+T/TuYDIi5plmBJo+70gk9XvPUJyTViMx1GmgedtzcYGPTcX2NfsMT2rCZrIM5rHGF6ugIwLw6p6T&#13;
+f8KhfwuFq9tKJ+3fchUZesZOqwpFajW2qAWxdLk8IyPD8qF5on1OCg7HWHqOJrFJuo8Q4kIAhTLB&#13;
+slTGPZbAXYwbxdElLHXQYmaYK21WPj8kzV9wkXQd11RqaKQceNFRb5VA3VaHxJeywNoxvKxlVnsc&#13;
+gE0XyvUdUfvnLXGMfzGMOJJ3inaM0dBIqJMNoQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -1865,4 +1865,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_4a35bb7a-d5a6-4bf7-b35f-9885776fd78b" Target="#_64aa34c7-d0c9-4254-9c4d-0db67b4b753c"><Timestamp>2022-11-09 21:31:42</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_43444b86-ab6a-4fc3-9583-54df11a7cd31" Target="#_2876cf39-f6dc-4569-a22a-3fea13137cdb"><Timestamp>2022-11-09 21:44:37</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
