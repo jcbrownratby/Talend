@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_Tn-SMGDUEe2ZT9Y8FImneA" name="30_StagingBooksColumnAnalysis" creationDate="2022-11-10T09:47:28.447+0000" defaultContext="Default">
+  <clientDependency href="../Analyses/30_StagingBooksColumnAnalysis_0.1.ana#_ToAHYGDUEe2ZT9Y8FImneA"/>
+  <taggedValue xmi:id="_Tn-SMWDUEe2ZT9Y8FImneA" tag="OutputFolder" value="C:\Talend\Reports"/>
+  <taggedValue xmi:id="_Tn-SMmDUEe2ZT9Y8FImneA" tag="REP_DBINFO_DBTYPE" value="HSQL"/>
+  <taggedValue xmi:id="_Tn-SM2DUEe2ZT9Y8FImneA" tag="REP_DBINFO_DBVERSION" value=""/>
+  <taggedValue xmi:id="_Tn-SNGDUEe2ZT9Y8FImneA" tag="REP_DBINFO_HOST" value=""/>
+  <taggedValue xmi:id="_Tn-SNWDUEe2ZT9Y8FImneA" tag="REP_DBINFO_PORT" value=""/>
+  <taggedValue xmi:id="_Tn-SNmDUEe2ZT9Y8FImneA" tag="REP_DBINFO_WAREHOUSE" value=""/>
+  <taggedValue xmi:id="_Tn-SN2DUEe2ZT9Y8FImneA" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
+  <taggedValue xmi:id="_Tn-SOGDUEe2ZT9Y8FImneA" tag="REP_DBINFO_SCHEMA" value=""/>
+  <taggedValue xmi:id="_Tn-SOWDUEe2ZT9Y8FImneA" tag="REP_DBINFO_USER" value="sa"/>
+  <taggedValue xmi:id="_Tn-SOmDUEe2ZT9Y8FImneA" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v2:+bB6IvwKAB17EWZPmhMD1CjeeSj1zH0VEi2U+Q=="/>
+  <taggedValue xmi:id="_Tn-SO2DUEe2ZT9Y8FImneA" tag="REP_DBINFO_PARAMETER" value=""/>
+  <taggedValue xmi:id="_Tn-SPGDUEe2ZT9Y8FImneA" tag="REP_DBINFO_URL" value="jdbc:hsqldb:file:/C:\Users\jonat\workspace\TDQ_reporting_db\talend_dq"/>
+  <taggedValue xmi:id="_Tn-SPWDUEe2ZT9Y8FImneA" tag="REP_DBINFO_DRIVER" value="org.hsqldb.jdbcDriver"/>
+  <taggedValue xmi:id="_Tn-SPmDUEe2ZT9Y8FImneA" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.HSQLDialect"/>
+  <taggedValue xmi:id="_Tn-SP2DUEe2ZT9Y8FImneA" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_Tn-SQGDUEe2ZT9Y8FImneA" tag="Author" value="jcbrown@eval13398.talend.com"/>
+  <taggedValue xmi:id="_I-6zYGDVEe2ZT9Y8FImneA" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_I-6zYWDVEe2ZT9Y8FImneA" tag="Description" value=""/>
+  <taggedValue xmi:id="_I-6zYmDVEe2ZT9Y8FImneA" tag="Status" value="development"/>
+  <taggedValue xmi:id="_I-7acGDVEe2ZT9Y8FImneA" tag="OutputFileName" value="Staging Books Analysis"/>
+  <taggedValue xmi:id="_I-8BgGDVEe2ZT9Y8FImneA" tag="Single output" value="false"/>
+  <taggedValue xmi:id="_I-8BgWDVEe2ZT9Y8FImneA" tag="OutputType" value="pdf"/>
+  <taggedValue xmi:id="_I-8BgmDVEe2ZT9Y8FImneA" tag="REP_GENERATE_FILE" value="true"/>
+  <taggedValue xmi:id="_I-8BhGDVEe2ZT9Y8FImneA" tag="REP_LAST_RUN_CONTEXT" value="Default"/>
+  <analysisMap xmi:id="_Tn-SQWDUEe2ZT9Y8FImneA" mustRefresh="true" reportType="Basic">
+    <analysis href="../Analyses/30_StagingBooksColumnAnalysis_0.1.ana#_7iSLEV9TEe2OSauc57GQ_Q"/>
+  </analysisMap>
+  <context xmi:id="_I-8Bg2DVEe2ZT9Y8FImneA" confirmationNeeded="false" name="Default"/>
+</dataquality.reports:TdReport>

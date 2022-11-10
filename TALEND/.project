@@ -9,4 +9,11 @@
 	<natures>
 		<nature>org.talend.core.talendnature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>.FormatColumnAnalysis-20221110-0954-00054.pdf</name>
+			<type>1</type>
+			<location>C:/Talend/Reports/FormatColumnAnalysis-20221110-0954-00054.pdf</location>
+		</link>
+	</linkedResources>
 </projectDescription>

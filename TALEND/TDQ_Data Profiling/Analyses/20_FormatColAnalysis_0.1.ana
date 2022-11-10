@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
-  <dataquality.analysis:Analysis xmi:id="_01aqcF9TEe2OSauc57GQ_Q" name="20_FormatColAnalysis" creationDate="2022-11-07T15:12:26.375+0000" defaultContext="Default">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:dataquality.reports="http://dataquality.reports" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <dataquality.analysis:Analysis xmi:id="_01aqcF9TEe2OSauc57GQ_Q" name="20_FormatColAnalysis" supplierDependency="_KY6sQmDVEe2ZT9Y8FImneA" creationDate="2022-11-07T15:12:26.375+0000" defaultContext="Default">
     <clientDependency href="../../metadata/connections/staging_0.1.item#_NVDAIF6mEe29KfHVYdWX9g"/>
     <clientDependency href="../../TDQ_Libraries/Patterns/SQL/internet/Email_Gmail_from_Google_0.1.pattern#_9vLtgGBxEe2jPckhkOjMkw"/>
     <clientDependency href="../../TDQ_Libraries/Patterns/SQL/internet/Email_Yahoo_0.1.pattern#_9vVegGBxEe2jPckhkOjMkw"/>
@@ -101,7 +101,7 @@
       <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/staging_0.1.item#_VoTGd2BsEe2jPckhkOjMkw"/>
     </context>
     <results xmi:id="_01aqe19TEe2OSauc57GQ_Q">
-      <resultMetadata xmi:id="_01aqfF9TEe2OSauc57GQ_Q" executionDate="2022-11-09T22:04:16.238+0000" executionDuration="2728" message="" executionNumber="10" lastRunOk="true" lastExecutionNumberOk="10"/>
+      <resultMetadata xmi:id="_01aqfF9TEe2OSauc57GQ_Q" executionDate="2022-11-10T09:54:46.666+0000" executionDuration="6987" message="" executionNumber="11" lastRunOk="true" lastExecutionNumberOk="11"/>
       <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_9vHcEGBxEe2jPckhkOjMkw" count="224" computed="true">
         <parameters xmi:id="_9vHcEWBxEe2jPckhkOjMkw"/>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/staging_0.1.item#_VoTGc2BsEe2jPckhkOjMkw"/>
@@ -268,7 +268,7 @@
           </builtInIndicatorDefinition>
         </medianIndicator>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:ModeIndicator" xmi:id="_9vHcJGBxEe2jPckhkOjMkw" computed="true" mode="ACED0005737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B020000787000000001">
+      <indicators xsi:type="dataquality.indicators:ModeIndicator" xmi:id="_9vHcJGBxEe2jPckhkOjMkw" computed="true" distinctValueCount="0" mode="ACED0005737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B020000787000000001">
         <parameters xmi:id="_9vHcJWBxEe2jPckhkOjMkw"/>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/staging_0.1.item#_VoTGc2BsEe2jPckhkOjMkw"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Advanced Statistics/Mode_0.1.definition#_ccIR4RF2Ed2PKb6nEJEvhw"/>
@@ -1662,7 +1662,7 @@
           </builtInIndicatorDefinition>
         </avgLengthWithBlankNullIndicator>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:ModeIndicator" xmi:id="_9vIDJ2BxEe2jPckhkOjMkw" computed="true" mode="ACED0005740014277262604020276A7A206679206D6A6C5764796E">
+      <indicators xsi:type="dataquality.indicators:ModeIndicator" xmi:id="_9vIDJ2BxEe2jPckhkOjMkw" computed="true" distinctValueCount="0" mode="ACED0005740014277262604020276A7A206679206D6A6C5764796E">
         <parameters xmi:id="_9vIDKGBxEe2jPckhkOjMkw"/>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/staging_0.1.item#_VoTGd2BsEe2jPckhkOjMkw"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Advanced Statistics/Mode_0.1.definition#_ccIR4RF2Ed2PKb6nEJEvhw"/>
@@ -2681,6 +2681,9 @@
     <parameters xmi:id="_01arGF9TEe2OSauc57GQ_Q" dataFilter="_01arGl9TEe2OSauc57GQ_Q" analysisType="Multiple Column Analysis"/>
     <contextType xmi:id="_01arGV9TEe2OSauc57GQ_Q" confirmationNeeded="false" name="Default"/>
   </dataquality.analysis:Analysis>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_KY6sQmDVEe2ZT9Y8FImneA" kind="Usage" supplier="_01aqcF9TEe2OSauc57GQ_Q">
+    <client xsi:type="dataquality.reports:TdReport" href="../Reports/20_FormatColAnalysis_0.1.rep#_KY6sMGDVEe2ZT9Y8FImneA"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
   <dataquality.domain:Domain xmi:id="_01arGl9TEe2OSauc57GQ_Q" name="20_FormatColAnalysis">
     <ranges xmi:id="_01arG19TEe2OSauc57GQ_Q">
       <expressions xmi:id="_01arHF9TEe2OSauc57GQ_Q">

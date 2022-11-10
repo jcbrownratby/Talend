@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
+  <deletedItems id="_zVf2cF68Ee29KfHVYdWX9g" path="TalendDemo" type="PROCESS"/>
   <deletedItems id="_4GW2wF9TEe2OSauc57GQ_Q" path="" type="TDQ_ANALYSIS_ELEMENT"/>
   <deletedItems id="_59JOsF9SEe2OSauc57GQ_Q" path="" type="TDQ_ANALYSIS_ELEMENT"/>
   <deletedItems id="_J6qbUF9TEe2OSauc57GQ_Q" path="" type="TDQ_ANALYSIS_ELEMENT"/>

@@ -1,0 +1,11 @@
+{
+  "itemId" : "_dAfTAGDPEe2ZT9Y8FImneA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_O8te8GC-Ee2ZT9Y8FImneA",
+    "parameterList" : [ {
+      "id" : "_O9gJIGC-Ee2ZT9Y8FImneA",
+      "name" : "password"
+    } ]
+  } ]
+}
